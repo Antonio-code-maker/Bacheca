@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>danger</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0cad33e42f1220108fbcd0e62799b647</sp_column>
+        <sp_widget display_value="KB News">ad2326a45b110200e23dc7ad31f91a1e</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 07:29:25</sys_created_on>
+        <sys_id>752eb7e42f1220108fbcd0e62799b6d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ok ok ok</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_752eb7e42f1220108fbcd0e62799b6d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 07:30:50</sys_updated_on>
+        <title>ok ok ok</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"kb_category": {
+		"value": "b85c6552ff0131009b20ffffffffffd4",
+		"displayValue": "Announcements"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=752eb7e42f1220108fbcd0e62799b6d9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>440a1e3ddb183b008aea21c405961964</instance_id>
+        <instance_name>dev76334</instance_name>
+        <name>sp_instance_752eb7e42f1220108fbcd0e62799b6d9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;danger&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;0cad33e42f1220108fbcd0e62799b647&lt;/sp_column&gt;&lt;sp_widget display_value="KB News"&gt;ad2326a45b110200e23dc7ad31f91a1e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-10 07:29:25&lt;/sys_created_on&gt;&lt;sys_id&gt;752eb7e42f1220108fbcd0e62799b6d9&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;ok ok ok&lt;/sys_name&gt;&lt;sys_package display_value="Bacheca" source="x_570201_bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_752eb7e42f1220108fbcd0e62799b6d9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-10 07:30:50&lt;/sys_updated_on&gt;&lt;title&gt;ok ok ok&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"max_number": {
+		"value": null,
+		"displayValue": ""
+	},
+	"kb_category": {
+		"value": "b85c6552ff0131009b20ffffffffffd4",
+		"displayValue": "Announcements"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=752eb7e42f1220108fbcd0e62799b6d9"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-168705751</payload_hash>
+        <record_name>ok ok ok</record_name>
+        <reverted_from/>
+        <source>ec76ed2a2f426c108fbcd0e62799b683</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 07:30:50</sys_created_on>
+        <sys_id>ae7ef7e42f1220108fbcd0e62799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778ad990760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 07:30:50</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>a67ef7e44d122010d77a4b6b19952334</update_guid>
+        <update_guid_history>a67ef7e44d122010d77a4b6b19952334:-168705751,3d2eb7e4891220106c5e40f8ba54bbda:1298101166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="ok ok ok">1ebe7fe42f1220108fbcd0e62799b6a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 07:31:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0a1c295d7b6f44ec833f2d77097ab610</sys_id>
+        <sys_metadata>752eb7e42f1220108fbcd0e62799b6d9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ok ok ok</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sp_instance_752eb7e42f1220108fbcd0e62799b6d9</sys_update_name>
+        <sys_update_version display_value="sp_instance_752eb7e42f1220108fbcd0e62799b6d9">ae7ef7e42f1220108fbcd0e62799b634</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-10 07:31:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

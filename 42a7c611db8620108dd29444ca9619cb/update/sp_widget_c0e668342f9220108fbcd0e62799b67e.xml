@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.list-group-item {
+  color: white;
+  background-color: #C83C36;
+  font-size: 12px;
+}
+.panel-heading {
+  
+ background:#C83C36;
+ font-size: 40px
+}
+.panel-title {
+  font-size:40px;
+  color:white;
+}
+  </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>widget_commento_bacheca</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>widget Commento bacheca</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+//populate the 'data' object 
+// e.g., data.table = $sp.getValue('table'); 
+data.notes=[];/*lista vuota*/
+var noteRecord=new GlideRecord('x_570201_bacheca_commento');
+//noteRecord.addQuery('u_reference_1',gs.getUser().getID());
+noteRecord.query();
+while(noteRecord.next()){
+var noteObj={};/*oggetto vuoto*/
+/*Usiamo Service portal helper per copiare all'interno dell'oggetto
+noteObj il valore dei campi:
+Number, title, sys_id del record NoteRecord*/
+$sp.getRecordDisplayValues(noteObj, noteRecord,'titolo,number,sys_id,testo_commento,data_commento,motivo_di_interesse,come_conosci_evento');
+//noteObj.note=noteRecord.getValue('note').slice(0,20);
+data.notes.push(noteObj);
+
+}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 10:27:20</sys_created_on>
+        <sys_id>c0e668342f9220108fbcd0e62799b67e</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>widget Commento bacheca</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_widget_c0e668342f9220108fbcd0e62799b67e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 19:04:25</sys_updated_on>
+        <template><![CDATA[<div>
+	<div class="panel panel-default">
+		<div class="panel-heading clearfix">
+			<h3 class="panel-title pull-left">
+					${I tuoi commenti}
+			</h3>
+		</div>
+	<div class="list-group">
+		<a class="list-group-item" ng-repeat="note in data.notes">
+			<h4 class="list-group-item-headin">
+				{{note.titolo}}
+			</h4>
+			<p class="list-group-item-text">
+				{{note.testo_commento}}
+        {{'-'}}
+        {{note.data_commento}}
+        {{'-'}}
+        {{note.motivo_di_interesse}}
+        {{'-'}}
+        {{note.come_conosci_evento}}
+			</p>
+		</a>
+		</div>
+	</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

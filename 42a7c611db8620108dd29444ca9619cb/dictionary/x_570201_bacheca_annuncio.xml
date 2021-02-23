@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Annuncio" max_length="40" name="x_570201_bacheca_annuncio" sizeclass="15" type="collection">
+    <element label="Annuncio" max_length="40" name="x_570201_bacheca_annuncio" sizeclass="5" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Altra proposta" max_length="40" name="altra_proposta" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Altra tipologia evento aziendale" max_length="40" name="altra_tipo_azi" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Altra tipologia evento informale" max_length="40" name="altra_tipo_informale" type="string"/>
@@ -7,10 +7,11 @@
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" default="0" label="Di quanto è la quota partecipativa" max_length="20" name="ammontare_q_partecipativa" type="price"/>
         <element label="Annullamento attività" max_length="40" name="annullamento_attivita" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Benefici che ci si aspetta con la proposta" max_length="1000" name="benefici" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="corpo" max_length="40" name="body" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Causa annullamento" max_length="50" name="causa_annullamento" type="string"/>
         <element label="Viene fornito cibo" max_length="40" name="cibo" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="New Date" max_length="40" name="data_ann" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Data evento informale" max_length="40" name="data_evento_informale" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Dove lavora utente" max_length="40" name="dove_lavora_utente" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Dove si svolge" max_length="40" name="dove_si_svolge" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Dove si svolge" max_length="40" name="dove_svolge" type="string"/>
         <element label="Dress code" max_length="40" name="dress_code" type="boolean"/>
@@ -96,6 +97,7 @@
         <element attributes="encode_utf8=false" label="Utente che promuove la proposta" max_length="32" name="utente_promotore" reference="x_570201_bacheca_utente" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Data evento aziendale" max_length="40" name="u_data_aziendale" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Data inserimento proposta" max_length="40" name="u_inserimento_proposta" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Utente di riferimento" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <element attributes="encode_utf8=false" label="Utente" max_length="32" name="u_utente" reference="x_570201_bacheca_utente" type="reference"/>
         <index name="index">
             <element name="u_utente"/>
@@ -104,6 +106,9 @@
             <element name="utente_organizzatore_informale"/>
         </index>
         <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index4">
             <element name="utente_promotore"/>
         </index>
     </element>

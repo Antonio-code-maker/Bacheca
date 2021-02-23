@@ -67,7 +67,7 @@
         <update_guid_history>d6350ef56bca6010246c7bbd241afd59:1556329931,6e2b69f5e88a6010a2a8d141d95b0029:-1795948331,daea6175638a60106fe381558ece953a:-1994950010,2cd86d35bc8a6010caebdf180dede4ab:-1795948331,7e48606d880e2010e2220f7ceb6d67f0:-713341916,6308e06d110e2010620816cc64a4c19c:2116964362</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Tutti gli annunci di tipo attività informale">d7718b46db0aa0108dd29444ca961937</sys_audit_delete>
+        <sys_audit_delete display_value="">d7718b46db0aa0108dd29444ca961937</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-02 08:39:33</sys_created_on>

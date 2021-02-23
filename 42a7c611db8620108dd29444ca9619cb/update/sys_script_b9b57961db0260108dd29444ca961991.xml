@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Impedisci inserimento annuncio dopo Xgg</name>
+        <name>Inserimento annuncio 30 gg</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -33,10 +33,10 @@
 	var dataAggiunta=current.u_data_aziendale;
 	var numGiorni=gs.getProperty('x_570201_bacheca.dataEventoAziendale');
 	
-	var isDataOk=bachecaUtils.isDateAccettata(dataAggiunta,numGiorni);
+	var isDataCorretta=bachecaUtils.isDateAccettata(dataAggiunta,numGiorni);
 	
-	if(isDataOk==false){
-		gs.addErrorMessage('Non puoi inserire annuci tra più di '+numGiorni+' giorni');
+	if(isDataCorretta==false){
+		gs.addErrorMessage('Non puoi inserire questo annuncio');
 		current.setAbortAction(true);
 	}
 	
@@ -48,15 +48,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9b57961db0260108dd29444ca961991</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>Impedisci inserimento annuncio dopo Xgg</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Inserimento annuncio 30 gg</sys_name>
         <sys_overrides/>
         <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
         <sys_policy/>
         <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
         <sys_update_name>sys_script_b9b57961db0260108dd29444ca961991</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-01 15:38:14</sys_updated_on>
+        <sys_updated_on>2021-02-03 17:39:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

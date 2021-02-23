@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">4400e2412f5260108fbcd0e62799b60e</sp_column>
+        <sp_widget display_value="KB Article Helpful">69a638365b722200a9ad09ed5a62bceb</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 15:02:14</sys_created_on>
+        <sys_id>2c6f260d2f5260108fbcd0e62799b680</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CIAO</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_2c6f260d2f5260108fbcd0e62799b680</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 15:02:59</sys_updated_on>
+        <title>CIAO</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"hide_percent_helpful": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"response": {
+		"value": "CIAO OK",
+		"displayValue": "CIAO OK"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=2c6f260d2f5260108fbcd0e62799b680"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>440a1e3ddb183b008aea21c405961964</instance_id>
+        <instance_name>dev76334</instance_name>
+        <name>sp_instance_2c6f260d2f5260108fbcd0e62799b680</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;4400e2412f5260108fbcd0e62799b60e&lt;/sp_column&gt;&lt;sp_widget display_value="KB Article Helpful"&gt;69a638365b722200a9ad09ed5a62bceb&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-11 15:02:14&lt;/sys_created_on&gt;&lt;sys_id&gt;2c6f260d2f5260108fbcd0e62799b680&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;CIAO&lt;/sys_name&gt;&lt;sys_package display_value="Bacheca" source="x_570201_bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_2c6f260d2f5260108fbcd0e62799b680&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-11 15:02:59&lt;/sys_updated_on&gt;&lt;title&gt;CIAO&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"hide_percent_helpful": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"response": {
+		"value": "CIAO OK",
+		"displayValue": "CIAO OK"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2c6f260d2f5260108fbcd0e62799b680"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>265082610</payload_hash>
+        <record_name>CIAO</record_name>
+        <reverted_from/>
+        <source>ec76ed2a2f426c108fbcd0e62799b683</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 15:02:59</sys_created_on>
+        <sys_id>6f8f2ec92f5260108fbcd0e62799b62b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177919de2600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 15:02:59</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>678f2ec9a3526010f4e74c01871e252b</update_guid>
+        <update_guid_history>678f2ec9a3526010f4e74c01871e252b:265082610,b76faac91f52601036e34e6b89c4e6dc:-227501098,a46f260dca526010d38fe97192a38582:702310966</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="CIAO">56afa60d2f5260108fbcd0e62799b6a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 15:03:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>03f4b12b92564d0880530ae227da0210</sys_id>
+        <sys_metadata>2c6f260d2f5260108fbcd0e62799b680</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CIAO</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sp_instance_2c6f260d2f5260108fbcd0e62799b680</sys_update_name>
+        <sys_update_version display_value="sp_instance_2c6f260d2f5260108fbcd0e62799b680">6f8f2ec92f5260108fbcd0e62799b62b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 15:03:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

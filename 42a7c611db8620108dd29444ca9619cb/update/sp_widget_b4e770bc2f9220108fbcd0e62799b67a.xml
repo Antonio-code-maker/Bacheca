@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.panel-heading  {
+  color: white;
+  background-color:#1F8476;
+  font-size:40px;
+}
+.panel-title{
+  font-size:40px;
+  color:white;
+}
+ .list-group{
+   color:#1F8476 ;
+  background-color:#1F8476;
+  font-size:16px;
+}
+.list-group-item{
+  color:white ;
+  background-color:#1F8476;
+  font-size:16px;
+
+  .list-group-item-heading{
+  color:white;
+  background-color#1F8476;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>widget_evento_bacheca</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>widget evento bacheca</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+data.notes=[];/*lista vuota*/
+data.proposta=[];
+data.informale=[];
+var noteRecord=new GlideRecord('x_570201_bacheca_annuncio');
+noteRecord.query();
+while(noteRecord.next()){
+var noteObj={};
+var notePro={};
+var noteInf={};
+noteRecord.getAttribute('tipo_annuncio');
+if(noteRecord.tipo_annuncio==2){
+$sp.getRecordDisplayValues(noteObj, noteRecord,'tipo_annuncio,nome_evento,u_data_aziendale,tipologia_evento,dove_si_svolge');
+data.notes.push(noteObj);
+}else{
+if(noteRecord.tipo_annuncio==3){
+$sp.getRecordDisplayValues(notePro, noteRecord,'tipo_annuncio,nome_proposta,u_inserimento_proposta,stato_proposta,tipologia_proposta,motivo_proposta');
+data.proposta.push(notePro);
+}else{
+$sp.getRecordDisplayValues(noteInf, noteRecord,'tipo_annuncio,nome_attivita_informale,tipo_informale,data_evento_informale,num_massimo,dove_svolge');
+data.informale.push(noteInf);
+}
+}
+
+}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 11:41:40</sys_created_on>
+        <sys_id>b4e770bc2f9220108fbcd0e62799b67a</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>widget evento bacheca</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_widget_b4e770bc2f9220108fbcd0e62799b67a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 18:32:59</sys_updated_on>
+        <template><![CDATA[<div>
+<div class="panel panel-default">
+<div class="panel-heading clearfix">
+<h3 class="panel-title pull-left">
+${I nostri annunci}
+</h3>
+</div>
+<div class="list-group">
+<a class="list-group-item" ng-repeat="note in data.notes">
+<h4 class="list-group-item-heading">
+{{note.tipo_annuncio}}
+</h4>
+<p class="list-group-item-text">
+{{note.nome_evento}}
+{{'-'}}
+{{note.u_data_aziendale}}
+{{'-'}}
+{{note.tipologia_evento}}
+{{note.dove_si_svolge}}
+{{'-'}}
+</p>
+</a>
+<a class="list-group-item" ng-repeat="note in data.proposta">
+<h4 class="list-group-item-heading">
+{{note.tipo_annuncio}}
+</h4>
+<p class="list-group-item-text">
+{{note.nome_proposta}}
+{{'-'}}
+{{note.u_inserimento_proposta}}
+{{'-'}}
+{{note.stato_proposta}}
+{{'-'}}
+{{note.tipologia_proposta}}
+{{'-'}}
+{{note.motivo_proposta}}
+</p>
+</a>
+<a class="list-group-item" ng-repeat="note in data.informale">
+<h4 class="list-group-item-heading">
+{{note.tipo_annuncio}}
+</h4>
+<p class="list-group-item-text">
+{{note.nome_attivita_informale}}
+{{'-'}}
+{{note.data_evento_informale}}
+{{'-'}}
+{{note.tipo_informale}}
+{{'-'}}
+{{note.num_massimo}}
+{{'-'}}
+{{note.dove_svolge}}
+  
+</p>
+</a>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

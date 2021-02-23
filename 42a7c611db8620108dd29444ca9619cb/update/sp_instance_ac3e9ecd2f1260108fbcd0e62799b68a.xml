@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b4cd9acd2f1260108fbcd0e62799b609</sp_column>
+        <sp_widget display_value="link-button">abc50de6d702120023c84f80de61036a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 13:47:08</sys_created_on>
+        <sys_id>ac3e9ecd2f1260108fbcd0e62799b68a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_ac3e9ecd2f1260108fbcd0e62799b68a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 14:13:34</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"href": {
+		"value": "https://dev76334.service-now.com/nav_to.do?uri=%2Fx_570201_bacheca_annuncio.do%3Fsys_id%3D-1%26sysparm_stack%3Dx_570201_bacheca_annuncio_list.do",
+		"displayValue": "https://dev76334.service-now.com/nav_to.do?uri=%2Fx_570201_bacheca_annuncio.do%3Fsys_id%3D-1%26sysparm_stack%3Dx_570201_bacheca_annuncio_list.do"
+	},
+	"button_text": {
+		"value": "Qui puoi creare un nuovo annuncio",
+		"displayValue": "Qui puoi creare un nuovo annuncio"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=ac3e9ecd2f1260108fbcd0e62799b68a"/>
+</record_update>

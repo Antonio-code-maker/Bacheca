@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_570201_bacheca.validateString</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>validateString</name>
+        <script><![CDATA[function validateString(str){
+		str = str + '';
+		if(str.match(/^[a-z]+$/i)){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-31 12:41:29</sys_created_on>
+        <sys_id>45856129dbce20108dd29444ca961988</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>validateString</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sys_script_include_45856129dbce20108dd29444ca961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 15:58:54</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>440a1e3ddb183b008aea21c405961964</instance_id>
+        <instance_name>dev76334</instance_name>
+        <name>sys_script_include_45856129dbce20108dd29444ca961988</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;false&lt;/active&gt;&lt;api_name&gt;x_570201_bacheca.validateString&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;validateString&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function validateString(str){
+		str = str + '';
+		if(str.match(/^[a-z]+$/i)){
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-01-31 12:41:29&lt;/sys_created_on&gt;&lt;sys_id&gt;45856129dbce20108dd29444ca961988&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;validateString&lt;/sys_name&gt;&lt;sys_package display_value="Bacheca" source="x_570201_bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_45856129dbce20108dd29444ca961988&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-03 15:58:54&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2136576726</payload_hash>
+        <record_name>validateString</record_name>
+        <reverted_from/>
+        <source>ec76ed2a2f426c108fbcd0e62799b683</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-03 15:58:54</sys_created_on>
+        <sys_id>e0af25222f826c108fbcd0e62799b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177689e32900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 15:58:54</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>6caf2522da826c107b0e52048af44d9c</update_guid>
+        <update_guid_history>6caf2522da826c107b0e52048af44d9c:-2136576726,e6566d6a0b426c102443862872310959:-967696335</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-03 17:08:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>4cdf2b82b2334a7da1857ede48a90ff1</sys_id>
+        <sys_metadata>45856129dbce20108dd29444ca961988</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validateString</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sys_script_include_45856129dbce20108dd29444ca961988</sys_update_name>
+        <sys_update_version display_value="sys_script_include_45856129dbce20108dd29444ca961988">e0af25222f826c108fbcd0e62799b69d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 17:08:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Review" max_length="40" name="x_570201_bacheca_review" sizeclass="6" type="collection">
+    <element label="Review" max_length="40" name="x_570201_bacheca_review" sizeclass="3" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Cognome Utente" max_length="40" name="cognome_utente" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="100" label="Come conoscevi l'evento?" max_length="40" name="come_evento" type="choice">
             <choice>
@@ -22,6 +22,7 @@
         <element attributes="encode_utf8=false" label="Utente" max_length="32" name="utente" reference="x_570201_bacheca_utente" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Altro motivo" max_length="40" name="u_altro_motivo_revi" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Email utente" max_length="40" name="u_email_utente_review" type="string"/>
+        <element attributes="encode_utf8=false" label="Utente di riferimento" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="91" label="Stelle di valutazione" max_length="40" name="u_stelle" type="choice">
             <choice>
                 <element inactive_on_update="false" label="1" sequence="0" value="91"/>
@@ -36,6 +37,9 @@
             <element name="utente"/>
         </index>
         <index name="index2">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index3">
             <element name="id_annuncio"/>
         </index>
     </element>

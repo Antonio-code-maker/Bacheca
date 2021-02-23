@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">c06a27882f1620108fbcd0e62799b6b2</sp_column>
+        <sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 16:46:36</sys_created_on>
+        <sys_id>688a6b882f1620108fbcd0e62799b6ef</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Tieni sempre d'occhio il tempo.</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_688a6b882f1620108fbcd0e62799b6ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 17:01:18</sys_updated_on>
+        <title>Tieni sempre d'occhio il tempo.</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"zone": {
+		"value": "Europe/Berlin",
+		"displayValue": "Europe/Berlin"
+	},
+	"c_color": {
+		"value": "#963211",
+		"displayValue": "#963211"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=688a6b882f1620108fbcd0e62799b6ef"/>
+</record_update>

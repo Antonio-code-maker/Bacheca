@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.list-group-item{
+  color:white;
+  background:#DFD139;
+  
+}
+ .panel-heading{
+   color:white;
+  background:#DFD139;
+   font-size:40px;
+}
+
+.panel-title{
+  font-size:40px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>widget_review</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Widget review</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+//populate the 'data' object 
+// e.g., data.table = $sp.getValue('table'); 
+data.notes=[];/*lista vuota*/
+var noteRecord=new GlideRecord('x_570201_bacheca_review');
+//noteRecord.addQuery('u_reference_1',gs.getUser().getID());
+noteRecord.query();
+while(noteRecord.next()){
+var noteObj={};/*oggetto vuoto*/
+/*Usiamo Service portal helper per copiare all'interno dell'oggetto
+noteObj il valore dei campi:
+Number, title, sys_id del record NoteRecord*/
+$sp.getRecordDisplayValues(noteObj, noteRecord,'titolo_review,number,sys_id,testo_review,punti_forza,punti_debolezza,come_evento');
+//noteObj.note=noteRecord.getValue('note').slice(0,20);
+data.notes.push(noteObj);
+
+}
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 11:09:58</sys_created_on>
+        <sys_id>28a030f82f9220108fbcd0e62799b68b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Widget review</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_widget_28a030f82f9220108fbcd0e62799b68b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 18:26:16</sys_updated_on>
+        <template><![CDATA[<div>
+	<div class="panel panel-default">
+		<div class="panel-heading clearfix">
+			<h3 class="panel-title pull-left">
+					${I tuoi commenti}
+			</h3>
+		</div>
+	<div class="list-group">
+		<a class="list-group-item" ng-repeat="note in data.notes">
+			<h4 class="list-group-item-headin">
+				{{note.titolo}}
+			</h4>
+			<p class="list-group-item-text">
+				{{note.testo_review}}
+        {{'-'}}
+        {{note.testo_review}}
+        {{'-'}}
+        {{note.punti_forza}}
+        {{'-'}}
+        {{note.punti_debolezza}}
+        {{'-'}}
+        {{note.come_evento}}
+			</p>
+		</a>
+		</div>
+	</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

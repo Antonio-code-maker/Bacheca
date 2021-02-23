@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">4c44c7002fd220108fbcd0e62799b648</sp_column>
+        <sp_widget display_value="Homepage Search">200fbd96cb20020000f8d856634c9ca1</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 15:18:12</sys_created_on>
+        <sys_id>d946930c2fd220108fbcd0e62799b650</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Benvenuti in Bacheca</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_d946930c2fd220108fbcd0e62799b650</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 16:07:30</sys_updated_on>
+        <title>Benvenuti in Bacheca</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"typeahead_search": {
+		"value": "Di cosa hai bisogno?",
+		"displayValue": "Di cosa hai bisogno?"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d946930c2fd220108fbcd0e62799b650"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</application>
+        <file_path/>
+        <instance_id>440a1e3ddb183b008aea21c405961964</instance_id>
+        <instance_name>dev76334</instance_name>
+        <name>sp_instance_d946930c2fd220108fbcd0e62799b650</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;4c44c7002fd220108fbcd0e62799b648&lt;/sp_column&gt;&lt;sp_widget display_value="Homepage Search"&gt;200fbd96cb20020000f8d856634c9ca1&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-08 15:18:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d946930c2fd220108fbcd0e62799b650&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Benvenuti in Bacheca&lt;/sys_name&gt;&lt;sys_package display_value="Bacheca" source="x_570201_bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Bacheca"&gt;42a7c611db8620108dd29444ca9619cb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_d946930c2fd220108fbcd0e62799b650&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-08 16:07:30&lt;/sys_updated_on&gt;&lt;title&gt;Benvenuti in Bacheca&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"typeahead_search": {
+		"value": "Di cosa hai bisogno?",
+		"displayValue": "Di cosa hai bisogno?"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d946930c2fd220108fbcd0e62799b650"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1339019952</payload_hash>
+        <record_name>Benvenuti in Bacheca</record_name>
+        <reverted_from/>
+        <source>ec76ed2a2f426c108fbcd0e62799b683</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 16:07:30</sys_created_on>
+        <sys_id>3b81afc02f1620108fbcd0e62799b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778265e1320000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 16:07:30</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>3381afc088162010f13db84700cc59a5</update_guid>
+        <update_guid_history>3381afc088162010f13db84700cc59a5:1339019952,7851ebc0a416201049518457fde37032:-1339785250,074167c0901620104aa7b234d10dfc1b:-86873505,d2b6970c4ad22010e3c127ce933442a7:-1339785250,9946930cf2d220103746c46b3e17b352:-1078529820</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Benvenuti in Bacheca">d691afc02f1620108fbcd0e62799b6ed</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 16:07:41</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>080ef24a7bc04e5fae9c0f24b7e1b929</sys_id>
+        <sys_metadata>d946930c2fd220108fbcd0e62799b650</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Benvenuti in Bacheca</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_scope_delete display_value="">3f00cfae93fa491187ff8b5226eb3649</sys_scope_delete>
+        <sys_update_name>sp_instance_d946930c2fd220108fbcd0e62799b650</sys_update_name>
+        <sys_update_version display_value="sp_instance_d946930c2fd220108fbcd0e62799b650">3b81afc02f1620108fbcd0e62799b6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-08 16:07:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -4,13 +4,13 @@
             <element>nome</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>33d40852dbcaa0108dd29444ca9619e2</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>5130ceea2f826c108fbcd0e62799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>codice_f</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>f7d40852dbcaa0108dd29444ca9619e2</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>1930ceea2f826c108fbcd0e62799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,97 +32,83 @@
             <element>luogo_nascita</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>7bd40852dbcaa0108dd29444ca9619e2</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>9930ceea2f826c108fbcd0e62799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dove_lavora</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>fbd40852dbcaa0108dd29444ca9619e2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>7fd40852dbcaa0108dd29444ca9619e2</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>1d30ceea2f826c108fbcd0e62799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cognome</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>ffd40852dbcaa0108dd29444ca9619e2</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>9d30ceea2f826c108fbcd0e62799b632</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>data_di_nascita</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>73d40852dbcaa0108dd29444ca9619e3</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>1130ceea2f826c108fbcd0e62799b633</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>email</element>
-            <position>7</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>f3d40852dbcaa0108dd29444ca9619e3</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>9130ceea2f826c108fbcd0e62799b633</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ruolo</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-02 13:33:57</sys_created_on>
-            <sys_id>77d40852dbcaa0108dd29444ca9619e3</sys_id>
+            <sys_created_on>2021-02-03 17:11:18</sys_created_on>
+            <sys_id>1530ceea2f826c108fbcd0e62799b633</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Informazioni personali" display_value="Informazioni personali" name="x_570201_bacheca_utente" sys_domain="global" view="Default view">df5c58e1db0e20108dd29444ca9619d5</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-02 13:33:57</sys_updated_on>
+            <sys_updated_on>2021-02-03 17:11:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

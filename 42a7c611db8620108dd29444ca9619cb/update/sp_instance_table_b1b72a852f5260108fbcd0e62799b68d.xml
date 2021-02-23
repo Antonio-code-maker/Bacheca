@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>success</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph>th-list</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">fa3cd68d2f1260108fbcd0e62799b60d</sp_column>
+        <sp_page display_value="list">b574e51147132100ba13a5554ee4903e</sp_page>
+        <sp_widget display_value="Count">1d8ad230ff223100ba13ffffffffffb9</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 14:28:44</sys_created_on>
+        <sys_id>b1b72a852f5260108fbcd0e62799b68d</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Informazioni Annunci</sys_name>
+        <sys_package display_value="Bacheca" source="x_570201_bacheca">42a7c611db8620108dd29444ca9619cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bacheca">42a7c611db8620108dd29444ca9619cb</sys_scope>
+        <sys_update_name>sp_instance_table_b1b72a852f5260108fbcd0e62799b68d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 18:45:12</sys_updated_on>
+        <table>x_570201_bacheca_annuncio</table>
+        <title>Informazioni Annunci</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=b1b72a852f5260108fbcd0e62799b68d"/>
+</record_update>
